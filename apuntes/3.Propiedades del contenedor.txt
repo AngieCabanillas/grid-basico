@@ -1,0 +1,31 @@
+propiedades que nos permiten crear una grilla, definir su cant de columnas y filas y definir espaciados entres estas filas y columnas
+-Display grid
+-Grid-template
+-Gaps
+-Grid-auto
+-----------------------------------------
+primero: display:grid;
+******************************************
+DEFINO CUANTAS FILAS HAY Y SU TAMAÑO
+grid-template-rows: 100px 200px 300px;
+******************************************
+DEFINO CUANTAS COLUMNAS HAY Y SU TAMAÑO
+grid-template-columns:100px 150px;
+******************************************
+grid-auto-rows->DEFINIR TAMAÑO DE TODAS LAS FILAS
+******************************************
+grid-auto-columns->DEFINIR TAMAÑO DE TODAS LAS COLUMNAS
+******************************************
+grid-auto-flow: row -> PRIMERO LLENA MIS COMPONENTES EN FILAS DE IZQUIERA A DERECHA
+******************************************
+grid-auto-flow: column->PRIMERO LLENA MIS COMPONENTES EN COLUMNAS DE ARRIBA A ABAJO
+******************************************
+grid-auto-flow: dense->LLENA LOS COMPONENTES NI BIEN HAY UN ESPACIO SIN IMPORTAR FILAS O COLUMNAS
+******************************************
+row-gap -> ESPACIO ENTRE FILAS
+******************************************
+column-gap ->ESPACIO ENTRE COLUMNAS
+******************************************
+gap -> AGREGA ESPACIO ENTRE FILAS Y COLUMNAS(EL MISMO)
+----------------------------------
+*CUANDO NO DECIMOS CUANTAS FILAS TIENE LA GRILLA, CREA 1 POR DEFECTO

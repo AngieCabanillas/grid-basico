@@ -1,0 +1,7 @@
+-Contenedor
+-Items
+-Líneas ->Limitan o dividen las filas o columnas de una grilla
+-Celda -> unidad minima que tenemos en una grilla(tiene 4 lineas y ocupa una fila o una columna)
+-Grupos de celdas
+*track-> grupos de celda que estan en una misma fila o una misma columna
+*area->pueden usar varias filas y varias columnas a la vez
