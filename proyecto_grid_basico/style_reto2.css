@@ -17,13 +17,8 @@
     align-items: end;
 }
 .item{
-    display: grid;
+    height: 50px;
+    width: 50px;
     background-color: rgb(229, 172, 218);
     border: 2px solid black;
-}
-.item span{
-    
-    height: 40px;
-    width: 40px;
-    background-color: blue;
 }
