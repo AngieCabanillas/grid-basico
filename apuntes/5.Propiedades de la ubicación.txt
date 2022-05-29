@@ -1,0 +1,17 @@
+Propiedades de ubicacion
+*grid-column-start linea; ->en que linea empieza el elemento
+*grid-column-end linea; ->en que linea termina el elemento
+*grid-column lineainicia / lineafin ->en que linea empieza y termina el elemento
+
+*grid-row-start linea;->en que linea empieza el elemento
+*grid-row-end linea; ->en que linea termina el elemento
+*grid-column lineainicia / lineafin->en que linea empieza y termina el elemento
+
+
+----------------
+asigna espacio a mi elemento
+*grid-template-areas:
+"1 2 3"
+" 4 5 6"
+
+*grid-area:1;
