@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 5px solid purple;
+    background-color: rgb(231, 212, 247);
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px;
+    place-content: center;
+    grid-template-areas: 
+        "header header header"
+        "side main main"
+        "side main main"
+    ;
+}
+.item1{
+    border: 5px solid rgb(160, 160, 239);
+    background-color: rgb(166, 209, 223);
+    grid-area: header;
+    
+}
+.item2{
+    border: 5px solid rgb(232, 54, 54);
+    background-color: rgb(222, 173, 173);
+    grid-area: side;
+}
+.item3{
+    border: 5px solid rgb(233, 115, 193);
+    background-color: rgb(231, 177, 211);
+    grid-area: main;
+}

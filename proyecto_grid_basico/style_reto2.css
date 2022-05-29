@@ -11,8 +11,7 @@
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 100px;
     grid-gap: 20px ;
-    justify-content: center;
-    align-content: center;
+    place-content: center;
     justify-items: end;
     align-items: end;
 }
