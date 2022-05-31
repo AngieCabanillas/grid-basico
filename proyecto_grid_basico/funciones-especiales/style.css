@@ -1,0 +1,7 @@
+.container{
+    border: 5px solid purple;
+    background-color: rgb(231, 212, 247);
+    display: grid;
+    grid-template-columns: minmax(30px, 300px) 100px 100px;
+    grid-template-rows: repeat(3,auto)
+}
