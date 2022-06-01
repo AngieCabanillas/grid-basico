@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 5px solid purple;
+    background-color: rgb(231, 212, 247);
+    display: grid;
+    /*grid-template-columns: repeat(4, 100px);*/
+    /* grid-template-columns: 1fr 3fr 1fr 2fr; */
+    /* grid-template-columns: 1fr 3fr min-content 2fr; */
+}
+.container2{
+    border: 5px solid purple;
+    background-color: rgb(231, 212, 247);
+    display: grid;
+    /*grid-template-columns: repeat(4, 100px);*/
+    /* grid-template-columns: 1fr 3fr 1fr 2fr; */
+    /* grid-template-columns: 1fr 3fr min-content 2fr; */
+}
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
